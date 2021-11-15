@@ -67,7 +67,7 @@ function bubbleSort(arr){
                 isSwapped = true;
             }
         }
-      // IF no two elements were swapped by inner loop, then break 
+    // IF no two elements were swapped by inner loop, then break 
         if(!isSwapped){
             break;
         }
@@ -79,6 +79,6 @@ function bubbleSort(arr){
     
 var arr = [243, 45, 23, 356, 6, 5346, 35, 5];
     
-  // calling the bubbleSort Function
+    // calling the bubbleSort Function
 bubbleSort(arr)
 
